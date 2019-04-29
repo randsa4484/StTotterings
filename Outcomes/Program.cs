@@ -17,7 +17,7 @@ namespace Outcomes
         {
             var scenarios = new List<Scenario>
             {
-                new Scenario(71, 66)
+                new Scenario(70, 66)
             };
 
             int spursGames = 2;
