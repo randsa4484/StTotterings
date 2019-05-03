@@ -22,6 +22,7 @@ namespace Outcomes
                 {Team.ManUtd, new PointsAndGoalDifference(2,65, 13)}
             };
 
+            // 'goalswing' of 3 means each non-draw result has a +3 or -3 effect on GD
             Simulation.TestScenario(currentTable, 3);
         }
     }
